@@ -6,7 +6,7 @@ export class AzureService {
     private client: any;
 
     constructor() {
-        this.client = new WindowsAzure.MobileServiceClient("https://arck9app.azurewebsites.net");
+        this.client = new WindowsAzure.MobileServiceClient("");
      }
 
     getAllQuestions(){
