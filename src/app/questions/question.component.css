@@ -1,0 +1,30 @@
+.badge{
+    margin-left: 10px;
+}
+
+.green{
+    background-color: green;
+}
+
+#delete{
+    color:white;
+    background-color: red;
+}
+
+#delete:hover{
+    background-color: darkred;
+}
+
+.records{
+    display: block;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.search{
+    padding: 20px;
+}
+
+.modal-title{
+    display: inline-block;
+}
